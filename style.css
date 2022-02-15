@@ -29,9 +29,18 @@ body, html {
   text-decoration: none;
 }
 .content {
+  display: inline-block;
   margin: 0 auto;
-  max-width: 90em;
+  width: 80%;
   padding: 10px;
+}
+.sidebar {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 15%;
+}
+.sidebar a {
+  color:black;
 }
 h1 {
   font-size: 1.5em;
