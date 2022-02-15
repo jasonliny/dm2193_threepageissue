@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Cinzel;
+  src: url("Cinzel-Regular.ttf");
+}
 * {
   box-sizing: border-box;
 }
@@ -5,54 +9,97 @@ body, html {
   padding: 0px;
   margin: 0px;
 }
-
+body {
+  background-color: #303044;
+}
 .header {
   text-align: center;
 }
-.homepage-navlink {
-  font-size: 2em;
+.homepage-navlink, .homepage-navlink:visited {
+  font-family: Cinzel;
+  font-size: 2.5em;
   text-decoration: none;
+  color: white;
 }
 .navbar {
-    background-color: #8f8f8f;
-    margin: 0;
+    font-family: Cinzel;
+    /* background-color: #8f8f8f; */
+    background-color: #202033;
+    margin: 0px;
     padding: 0px;
 }
 .navitem {
   display: inline-block;
+  margin-left: 10px;
 }
-.navlink {
+.navlink, .navlink:visited {
   display: block;
-  background-color: #9f9f9f;
-  margin: 0 10px 0 0;
+  /* background-color: #afafaf; */
+  background-color: #282838;
+  margin: 0px 10px 0px 0px;
   padding: 10px;
   text-decoration: none;
+  /* color: darkblue; */
+  color: #e0e0e0;
+}
+div {
+  padding: 0px;
+  margin: 0px;
 }
 .content {
   display: inline-block;
-  margin: 0 auto;
-  width: 80%;
+  margin: 0px 5px;
+  max-width: 75%;
+  width: 60em;
   padding: 10px;
+  text-align: justify;
+}
+.box {
+  /* background-color: #cccccc; */
+  background-color: #eeeeee;
+  margin: 10px 0px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.content a, .content a:visited {
+  color: blue;
+}
+.content li {
+  line-height: 25px;
 }
 .sidebar {
   display: inline-block;
   position: sticky;
-  margin-top: 10px;
-  background-color: #afafaf;
+  top: 0px;
+  margin-top: 20px;
+  /* background-color: #afafaf; */
+  background-color: #dddddd;
   vertical-align: top;
-  max-width: 15%;
+  max-width: 20%;
   padding: 10px;
   border-radius: 5px;
 }
-.sidebar a {
+.sidebar a,a:visited {
   color:black;
 }
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+  font-family: Cinzel;
+}
 h1 {
-  font-size: 1.5em;
+  font-size: 2em;
 }
 h2 {
+  font-size: 1.5em;
+}
+ul, ol {
+  margin: 0px 30px;
+  padding: 0px;
+}
+p, li {
   font-size: 1.1em;
+  line-height: 25px;
 }
 p {
-  //font-size: 1em;
+  margin: 8px 0px;
 }
