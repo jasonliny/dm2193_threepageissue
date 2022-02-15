@@ -23,7 +23,6 @@ body {
 }
 .navbar {
     font-family: Cinzel;
-    /* background-color: #8f8f8f; */
     background-color: #202033;
     margin: 0px;
     padding: 0px;
@@ -34,12 +33,10 @@ body {
 }
 .navlink, .navlink:visited {
   display: block;
-  /* background-color: #afafaf; */
   background-color: #282838;
   margin: 0px 10px 0px 0px;
   padding: 10px;
   text-decoration: none;
-  /* color: darkblue; */
   color: #e0e0e0;
 }
 div {
@@ -55,8 +52,7 @@ div {
   text-align: justify;
 }
 .box {
-  /* background-color: #cccccc; */
-  background-color: #eeeeee;
+  background-color: #f8f8f8;
   margin: 10px 0px;
   padding: 10px;
   border-radius: 5px;
@@ -72,7 +68,6 @@ div {
   position: sticky;
   top: 0px;
   margin-top: 20px;
-  /* background-color: #afafaf; */
   background-color: #dddddd;
   vertical-align: top;
   max-width: 20%;
