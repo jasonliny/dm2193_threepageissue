@@ -36,8 +36,13 @@ body, html {
 }
 .sidebar {
   display: inline-block;
+  position: sticky;
+  margin-top: 10px;
+  background-color: #afafaf;
   vertical-align: top;
   max-width: 15%;
+  padding: 10px;
+  border-radius: 5px;
 }
 .sidebar a {
   color:black;
