@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+body, html {
+  padding: 0px;
+  margin: 0px;
+}
+
+.header {
+  text-align: center;
+}
+.homepage-navlink {
+  font-size: 2em;
+  text-decoration: none;
+}
+.navbar {
+    background-color: #8f8f8f;
+    margin: 0;
+    padding: 0px;
+}
+.navitem {
+  display: inline-block;
+}
+.navlink {
+  display: block;
+  background-color: #9f9f9f;
+  margin: 0 10px 0 0;
+  padding: 10px;
+  text-decoration: none;
+}
+.content {
+  margin: 0 auto;
+  max-width: 90em;
+  padding: 10px;
+}
+h1 {
+  font-size: 1.5em;
+}
+h2 {
+  font-size: 1.1em;
+}
+p {
+  //font-size: 1em;
+}
